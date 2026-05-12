@@ -2,10 +2,10 @@
 
 ## Integrantes
 * **Martín Guzmán** -Rol:202473103-3
-* **Axel Garrido**- Rol:
+* **Axel Garrido**- Rol:202304065-7
 
 ## Especificaciones Técnicas
-* **Sistema Operativo:** Ubuntu (Linux)
+* **Sistema Operativo:** Ubuntu (Linux), Arch
 * **Lenguaje:** C++11
 * **Compilador:** g++ (GCC)
 
@@ -15,5 +15,7 @@ Los nodos internos no contienen texto, sino que almacenan un "peso" o zancada, e
 
 ## Instrucciones de Ejecución
 1. Abrir la terminal en el directorio del proyecto.
-2. Compilar el código fuente: `g++ -Wall -Wextra -std=c++11 -o tarea2 main.cpp`
-3. Ejecutar el programa: `./tarea2`
+2. Asegurarse que su código incluya con "#include "rope.hpp" (debe estar en la misma carpeta, de lo contrario debe especificar el directorio previamente)
+3. Verifique que su archivo principal se llame "Main.cpp" para que este se ejecute correctamente mediante el makefile
+4. Compilar el código fuente: `g++ -Wall -Wextra -std=c++11 -o tarea2 main.cpp`
+5. Ejecutar el programa: `./tarea2`
