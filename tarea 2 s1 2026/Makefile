@@ -1,8 +1,7 @@
-all: compile
+all: tarea2
 
-compile: main.cpp
-	g++ main.cpp -o tarea2 -Wall
-
+tarea2: main.cpp
+	g++ -Wall -Wextra -std=c++11 -o tarea2 main.cpp
 run:
 	./tarea2
 
