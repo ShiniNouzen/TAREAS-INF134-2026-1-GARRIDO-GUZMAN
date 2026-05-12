@@ -15,7 +15,8 @@ Los nodos internos no contienen texto, sino que almacenan un "peso" o zancada, e
 
 ## Instrucciones de Ejecución
 1. Abrir la terminal en el directorio del proyecto.
-2. Asegurarse que su código incluya con "#include "rope.hpp" (debe estar en la misma carpeta, de lo contrario debe especificar el directorio previamente)
-3. Verifique que su archivo principal se llame "Main.cpp" para que este se ejecute correctamente mediante el makefile
-4. Compilar el código fuente: `g++ -Wall -Wextra -std=c++11 -o tarea2 main.cpp`
+2. Asegurarse que su código incluya con "#include "rope.hpp" (o incluya la ruta al header si lo posee en otra ruta)
+3. Verifique que su archivo principal se llame "main.cpp" para que este se ejecute correctamente mediante el makefile
+4. Compilar el código fuente: make
 5. Ejecutar el programa: `./tarea2`
+6. Si luego desea limpiar los archivos compilados: `make clean`
